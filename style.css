@@ -35,3 +35,7 @@ body{
     height: 300px;
     width: 300px;
 }
+.textStyle{
+    color: aliceblue;
+    padding-top: 10px;
+}
