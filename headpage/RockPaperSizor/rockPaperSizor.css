@@ -1,0 +1,84 @@
+body{
+    background: rgb(94,118,203); 
+    background: linear-gradient(155deg, rgba(94,118,203,1) 29%, rgba(7,24,147,1) 69%);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.fixed-top{
+    /* display: flex; */
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    top: 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-radius: 10px;
+}
+.imgProfileStyle{
+    height: 40px;
+    width: 40px;
+}
+.navbar{
+    background-color: rgba(240, 240, 240, 1);
+    
+}
+  header {
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+  }
+  .score-board {
+    border: 3px solid white;
+    width: 300px;
+    margin: 40px auto;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+  }
+  .badge {
+    background: orange;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 6px;
+  }
+  #user-label {
+    position: absolute;
+    /* top: 50%; */
+    left: -5%;
+    transform: translate(-10%, -50%);
+  }
+  #computer-label {
+    position: absolute;
+    /* top: 50%; */
+    right: -5%;
+    transform: translate(10%, -50%);
+  }
+  .result {
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+  }
+  .choices {
+    text-align: center;
+    color: white;
+  }
+  .choice {
+    display: inline-block;
+    border: 3px solid white;
+    padding: 15px;
+    margin: 25px;
+  }
+  .winningStyles {
+    border: 3px solid green;
+    background-color: lightgreen;
+  }
+  .losingStyles {
+    border: 3px solid red;
+    background-color: lightcoral;
+  }
+  .drawStyles {
+    border: 3px solid lightgray;
+    background-color: gray;
+  }
